@@ -1,15 +1,24 @@
 h1{
  text-align: center;
- font-family: cursive;
- color: azure
+ color: azure;
 }
-body{
-    background-image:url(https://img00.deviantart.net/03dd/i/2014/204/5/6/storm_cloud_stock_background_by_amka_stock-d7rwo06.jpg)
+body {
+    background: url(ground\ 0.0.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
 }
-p{
+p {
     color: azure;
-    border: dashed crimson
+    border: dashed crimson;
+    width: 20%;
+    
 }
 a{
     color: crimson;
 }
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
