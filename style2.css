@@ -3,7 +3,7 @@ h1{
  color: azure;
 }
 body {
-    background: url(ground\ 0.0.gif);
+    background: url(https://img00.deviantart.net/03dd/i/2014/204/5/6/storm_cloud_stock_background_by_amka_stock-d7rwo06.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -22,3 +22,33 @@ a{
 .selector-for-some-widget {
     box-sizing: content-box;
   }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: crimson;
+}
