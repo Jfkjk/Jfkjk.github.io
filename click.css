@@ -53,18 +53,4 @@ h1{
        background-color: crimson;
    }
    
-td {
-    border: 1px solid white;
-    width:200px;
-    height:200px;
-    text-align: center;
-  }
-  
-  td:hover {
-    background:url(weather\ phenomena\ gif\ lightning\ strike\,\ extreme\ thunderstorm.gif);
-  }
-  
-  table {
-    border: 1px solid black;
-    padding:1px
-  }
+   
