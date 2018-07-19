@@ -20,16 +20,40 @@
         <li>
             <a href="contact.html" class="active">Contact</a>
         </li>
+        <li>
+            <a href="tictacToe.html">Tic-tac-toe</a>
+        </li>
     </ul>
     <h1>Contact page</h1>
     <p>Email: jfkjk4810@gmail.com</p>
     <p>Or: kennejoh002@warren.k12.in.us</p>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
-        crossorigin="anonymous"></script>
+    
+    <div class="w3-content w3-section" style="max-width:500px">
+        <img class="mySlides" src="headshot.jpg" style="width:100%">
+        <img class="mySlides" src="IMG_0742.JPG" style="width:100%">
+        <img class="mySlides" src="IMG_0918.JPG" style="width:100%">
+        <img class="mySlides" src="IMG_0742 (1).JPG" style="width:100%">
+        <img class="mySlides" src="IMG_1050.JPG" style="width:100%">
+        <img class="mySlides" src="IMG_0883.JPG" style="width:100%">
+    </div>
+    <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) {
+                myIndex = 1
+            }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 2000);
+        }
+    </script>
 </body>
 
 </html>

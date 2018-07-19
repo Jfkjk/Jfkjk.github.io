@@ -16,5 +16,3 @@ function setUserName() {
   };
   
   
-
-// hi
